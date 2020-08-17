@@ -10,6 +10,12 @@
 	var ctx = c.getContext("2d");
 	ctx.fillStyle = "lightgrey";
 	ctx.fillRect(0,0,gameCanvas.width, gameCanvas.height);
+
+	ctx.beginPath();
+	ctx.lineWidth = "1";
+	ctx.strokeStyle = "black";
+	ctx.rect(300, 300, 6, 6);
+	ctx.stroke();
 	</script>
 </body>
 </html>
