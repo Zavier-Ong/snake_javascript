@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html>
 <body>
-	<h1> here </h1>
-	<canvas id="myCanvas" width="200" height="100"></canvas>
+	<h1 style = "text-align: center"> Snake </h1>
+	<p align = "center">
+		<canvas id="gameCanvas" width="600" height="600"></canvas>
+	</p>
 	<script>
-	var c = document.getElementById("myCanvas");
+	var c = document.getElementById("gameCanvas");
 	var ctx = c.getContext("2d");
-	ctx.font = "30px Arial";
-	ctx.fillText("Hello World", 10, 50);
+	ctx.fillStyle = "lightgrey";
+	ctx.fillRect(0,0,gameCanvas.width, gameCanvas.height);
 	</script>
 </body>
 </html>
